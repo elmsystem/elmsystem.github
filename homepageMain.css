@@ -1,0 +1,217 @@
+body {
+	margin :0;
+	padding:0;
+	font-family: Roboto, sans-serif;
+}
+
+
+#box0 {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height: 80px;
+}
+
+.sticky {
+	position:fixed;
+	top:0;
+	left:0;
+   	background-color: rgb(255, 255, 255);
+   	box-shadow: 2px 2px 2px rgb(112, 112, 112);
+}
+
+.site-logo {
+	position: absolute;
+	top:10px;
+	left:20px;
+	float:left;
+	width:20%;
+}
+.primary-nav{
+	position: absolute;
+	top:10px;
+	float:right;
+	right : 40px;
+	width:80%;
+}
+.primary-nav ul{
+	list-style: none;
+}
+
+
+.primary-nav li {
+	float:right;
+}
+
+
+.primary-nav li:hover { 
+	opacity: 0.7;
+	cursor:pointer;
+}
+
+
+
+.main {
+	position: relative;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 62.5%;
+}
+
+#my-img {
+	position: absolute;
+	margin:0;
+	padding:0;
+	left: 0;
+	top: 0;
+	width: 100%; 
+}
+
+.box1 {
+	position: relative;
+	color : rgb(71, 71, 71);
+	margin: 0;
+	padding:0%;
+	font-size : 20px;
+	text-align: center;
+	padding-top: 18%;
+	padding-bottom : 18%;
+}
+#box1_1 {
+	color : rgb(145, 150, 161);
+}
+
+.box2 {
+	margin-top : 30px;
+	position: relative;
+	text-align: center;
+}
+
+.page {
+	text-align: center;
+	width: 80%;
+}
+
+.box3, .box4 {
+	margin : 50px;
+	position: relative;
+	text-align: center;
+}
+
+#company_map {
+	width : 900px;
+	height : 675px; 
+}
+
+#emailus {
+	display: inline;
+	padding: 10px;
+	background-color: #2f89ff;
+	border-radius: 4px;
+}
+
+#emailus a {
+	text-decoration: none;
+	color: white;
+} 
+
+#bar {
+	margin:auto;
+	width : 80%;
+	height : 1px;
+	background-color: #888;
+	box-align: center;
+}
+
+#copyright {
+	color: #888;
+	text-align : center;
+}
+
+.modal {
+	display: none;
+	position: fixed; 
+	z-index: 1; 
+	padding-top: 100px; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	overflow: auto; 
+	background-color: rgba(0,0,0,0.4); 
+  }
+  
+  #modal_content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	border-radius: 8px;
+	width: 30%;
+  }
+  
+  #close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  #close:hover,
+  #close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+
+@media(max-width : 1000px){
+	.box1 {
+		font-size: 16px;
+	}
+
+	#company_map {
+		width : 500px;
+		height : 375px; 
+	}
+
+}
+
+@media(max-width : 600px){
+	#box0 {
+		height: 50px;
+	}
+
+	.site-logo {
+		position: relative;
+		top:8px;
+		left:18px;
+		float:left;
+		width:20%;
+	}
+
+	#logo {
+		height : 35px;
+		width : 70px;
+	}
+
+	.primary-nav {
+		display: none;
+	}
+	.hamburger-bar {
+		visibility: visible;
+		display: inline;
+	}
+	
+	.box1 {
+		font-size: 10px;
+	}
+
+	#company_map {
+		width : 300px;
+		height : 225px; 
+	}
+}
+
