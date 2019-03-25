@@ -10,7 +10,7 @@ body {
 	top:0;
 	left:0;
 	width:100%;
-	height: 80px;
+	height: 50px;
 }
 
 .sticky {
@@ -22,13 +22,20 @@ body {
 }
 
 .site-logo {
-	position: absolute;
-	top:10px;
-	left:20px;
+	position: relative;
+	top:8px;
+	left:18px;
 	float:left;
 	width:20%;
 }
+
+#logo {
+	height : 35px;
+	width : 70px;
+}
+
 .primary-nav{
+	display: none;
 	position: absolute;
 	top:10px;
 	float:right;
@@ -49,7 +56,6 @@ body {
 	opacity: 0.7;
 	cursor:pointer;
 }
-
 
 
 .main {
@@ -74,7 +80,7 @@ body {
 	color : rgb(71, 71, 71);
 	margin: 0;
 	padding:0%;
-	font-size : 20px;
+	font-size : 10px;
 	text-align: center;
 	padding-top: 18%;
 	padding-bottom : 18%;
@@ -100,9 +106,10 @@ body {
 	text-align: center;
 }
 
+
 #company_map {
-	width : 900px;
-	height : 675px; 
+    width : 300px;
+    height : 225px; 
 }
 
 #emailus {
@@ -127,7 +134,8 @@ body {
 
 #copyright {
 	color: #888;
-	text-align : center;
+    text-align : center;
+    font-size: 10px;
 }
 
 .modal {
@@ -167,47 +175,49 @@ body {
   }
 
 
-@media(max-width : 1000px){
-	.box1 {
-		font-size: 16px;
+@media (min-width : 767px){
+
+    .box1 {
+		font-size: 20px;
 	}
 
-	#company_map {
-		width : 500px;
-		height : 375px; 
-	}
 
-}
-
-@media(max-width : 767px){
 	#box0 {
-		height: 50px;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height: 80px;
 	}
 
 	.site-logo {
-		position: relative;
-		top:8px;
-		left:18px;
+		position: absolute;
+		top:10px;
+		left:20px;
 		float:left;
 		width:20%;
 	}
 
-	#logo {
-		height : 35px;
-		width : 70px;
+    #logo {
+        height : 50px;
+        width : 100px;
+    }
+
+	.primary-nav{
+		display: block;
 	}
 
-	.primary-nav {
-		display: none;
-	}
+    #address {
+        font-size : 24px;
+    }
 	
-	.box1 {
-		font-size: 10px;
-	}
+    #company_map {
+        width : 900px;
+        height : 675px; 
+    }
 
-	#company_map {
-		width : 300px;
-		height : 225px; 
-	}
+    #copyright {
+        font-size: 14px;
+    }
+	
 }
-
