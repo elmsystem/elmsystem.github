@@ -107,6 +107,10 @@ body {
 }
 
 
+#address {
+	font-size: 14px;
+}
+
 #company_map {
     width : 300px;
     height : 225px; 
@@ -131,6 +135,7 @@ body {
 	background-color: #888;
 	box-align: center;
 }
+
 
 #copyright {
 	color: #888;
@@ -174,13 +179,10 @@ body {
 	cursor: pointer;
   }
 
-
 @media (min-width : 767px){
-
-    .box1 {
-		font-size: 20px;
+	.box1 {
+		font-size: 16px;
 	}
-
 
 	#box0 {
 		position:fixed;
@@ -203,10 +205,26 @@ body {
         width : 100px;
     }
 
+	#address {
+        font-size : 20px;
+	}
+	
 	.primary-nav{
 		display: block;
 	}
 
+	#company_map {
+		width : 500px;
+		height : 375px; 
+	}
+
+	#copyright {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width : 1000px){
     #address {
         font-size : 24px;
     }
@@ -219,5 +237,6 @@ body {
     #copyright {
         font-size: 14px;
     }
+    
 	
 }
