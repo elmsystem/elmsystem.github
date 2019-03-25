@@ -179,7 +179,7 @@ body {
 
 }
 
-@media(max-width : 600px){
+@media(max-width : 767px){
 	#box0 {
 		height: 50px;
 	}
@@ -199,10 +199,6 @@ body {
 
 	.primary-nav {
 		display: none;
-	}
-	.hamburger-bar {
-		visibility: visible;
-		display: inline;
 	}
 	
 	.box1 {
